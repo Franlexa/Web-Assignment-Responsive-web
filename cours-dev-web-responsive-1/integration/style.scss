@@ -1,0 +1,670 @@
+a {
+    text-decoration: none; 
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-color:  #ebebeb;
+}
+
+.top{
+    width:100% ;
+    height: 75px;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 1070px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.LeftList ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.LeftList li{
+    text-decoration: none; 
+    color: black; 
+    margin-right: 30px;
+    font-size: 14px;
+    &:hover{
+      background-color: #eee;
+      background-size: 100% 100%;
+    }
+}
+
+.LeftList li a{
+    color: black;
+}
+
+
+.RightList ul {
+    list-style: none; 
+    padding-block: 0;
+    margin: 0; 
+    display: flex;
+  }
+  
+  .RightList li {
+    margin-left: 30px;
+    color: white;
+    padding: 10px;
+    border-radius: 60px; 
+    background-color: #72ac51;
+    &:hover{
+      background-color: #eee;
+      background-size: 100% 100%;
+    }
+  }
+
+  .RightList li a {
+    color: white;
+  }
+
+  .RightList li:first-child {
+    margin-left: 30px;
+  }
+
+  .low{
+    width: 1070px; 
+    margin: 20px auto 0;
+  }
+
+  .leftside{
+    top: 20px;
+    height: 180px;
+    width: 262.5px;
+  }
+
+  .about {
+    top: 20px;
+    height: 60px;
+    width: 262.5px;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    padding-left: 20px;
+    border: 0.2px solid #565656;
+    background-color: #72ac51;
+    &:hover{
+      background-color: #eee;
+      background-size: 100% 100%;
+    }
+  }
+
+  .about a{
+    color: white;
+  }
+
+  .musicca {
+    top: 80px;
+    height: 60px;
+    width: 262.5px;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    padding-left: 20px;
+    border: 0.2px solid #565656;
+    background-color: white; 
+    color: black; 
+    &:hover{
+      background-color: #eee;
+      background-size: 100% 100%;
+    }
+  }
+
+  .musicca a{
+    color: black; 
+  }
+
+  .support{
+    top: 140px;
+    height: 60px;
+    width: 262.5px;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    padding-left: 20px;
+    border: 0.2px solid #565656;
+    background-color: white; 
+    color: black; 
+    &:hover{
+      background-color: #eee;
+      background-size: 100% 100%;
+    }
+  }
+
+  .support a{
+    color: black; 
+  }
+
+  .UP {
+    position: relative;
+    top: -160px;
+    margin-left: 282.5px;
+    right: 0;
+    height: 80px;
+    font-size: 36px;
+    color: #565656;
+    display: flex; 
+    align-items: center;
+    padding-left: 30px;
+  }  
+
+  .DOWN{
+    position: relative;
+    top: -160px;
+    margin-left: 282.5px;
+    width: 787.5px;
+    height: 100%;
+  }
+  
+  .CompanyPart{
+    position: relative;
+    top: 0px;
+    margin-left: 30px;
+    width: 383.75px;
+    height: 240px;
+    background-color: white;
+  }
+
+  .titlecompany{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 383.75px;
+    height: 20px;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    color: black; 
+  }
+
+  .contentcompany{
+    position: relative;
+    top: 60px;
+    margin-left: 30px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    font-size: 15px;
+    text-align: left;
+    align-items: center;
+    color: #565656; 
+  }
+
+  .CampanyPhoto{
+    position: relative;
+    top: 90px;
+    margin-left: 0;
+    width: 383.75px;
+    height: 150px;
+  }
+
+  .MissionPart{
+    position: relative;
+    top: -240px;
+    margin-left: 433.75px;
+    width: 383.75px;
+    height: 240px;
+    background-color: white;
+  }
+
+  .titlemission{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 383.75px;
+    height: 20px;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    color: black; 
+  }
+
+  .contentmission{
+    position: relative;
+    top: 60px;
+    margin-left: 30px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    font-size: 15px;
+    text-align: left;
+    align-items: center;
+    color: #565656; 
+  }
+
+  .MissionPhoto{
+    position: relative;
+    top: 90px;
+    margin-left: 0;
+    width: 383.75px;
+    height: 150px;
+  }
+
+  .ContributePart{
+    position: relative;
+    top: -150px;
+    margin-left: 30px;
+    width: 383.75px;
+    height: 180px;
+    background-color: white;
+  }
+
+  .titlecontribute{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 383.75px;
+    height: 20px;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    color: black; 
+  }
+
+  .contentcontribute{
+    position: relative;
+    top: 60px;
+    margin-left: 30px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    font-size: 15px;
+    text-align: left;
+    align-items: center;
+    color: #565656; 
+  }
+
+  .login {
+    width: 570px;
+    height: 374px;
+    background-color: white;
+    margin: 20px auto; 
+  }
+  
+.wordlogin{
+    position: relative;
+    top: 67px;
+    left: 60px;
+    width: 450px;
+    height: 35px;
+    font-size: 32px;
+    color: black;
+  }
+
+  .Email{
+    position: relative;
+    top: 87px;
+    left: 60px;
+    width: 450px;
+    height: 45px;
+    font-size: 16px;
+    color: #565656;
+  }
+
+  .Email input{
+    height: 45px;
+    width: 450px;
+    outline: none;
+  }
+
+  .Email input:invalid {
+    border: 2px solid red; 
+  }
+
+  .Email input:focus{
+    border: 2px solid #72ac51;
+  }
+
+  .password{
+    position: relative;
+    top: 117px;
+    left: 60px;
+    width: 450px;
+    height: 45px;
+    font-size: 16px;
+    color: #565656;
+  }
+
+  .password input{
+    height: 45px;
+    width: 450px;
+    outline: none;
+  }
+
+  .password input:invalid {
+    border: 2px solid red; 
+  }
+
+  .password input:focus{
+    border: 2px solid #72ac51;
+  }
+
+  .buttonlogin{
+    position: relative;
+    top: 147px;
+    left: 60px;
+    width: 450px;
+    height: 42px;
+    font-size: 14px;
+    border-radius: 60px; 
+    background-color: #72ac51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    &:hover{
+      background-color: #eee;
+      background-size: 100% 100%;
+    }
+  }
+
+  .buttonlogin input[type="submit"] {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+  }
+
+  .header{
+    display: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+    .background {
+      width: 100%;
+      height: 100vh;
+      background-color:  #ebebeb;
+    }
+
+    .top{
+      display: none;
+    }
+
+    .container{
+      display: none;
+    }
+
+    .leftside{
+      display: none;
+    } 
+
+    .header{
+      display: block;
+      width:100%;
+      height: 60px;
+      background-color: white;
+    }
+
+    .menu{
+      display:none;
+      width: 100%;
+    }  
+
+    .menu ul{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .menu li{
+      display: block;
+    }
+
+    .menucreateaccount{
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      box-sizing: border-box;
+      color: #eee;
+      background-color: #72ac51;
+      font-size: 18px;
+      border-bottom: 1px solid #565656;
+    }
+
+    .menulogin{
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      box-sizing: border-box;
+      background-color: #72ac51;
+      font-size: 18px;
+      border-bottom: 1px solid #565656;
+    }
+
+    .menulogin a {
+      color: #eee;
+    }
+
+    .menuexercises{
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      box-sizing: border-box;
+      color: #eee;
+      background-color: #72ac51;
+      font-size: 18px;
+      border-bottom: 1px solid #565656;
+    }
+
+    .menulessons{
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      box-sizing: border-box;
+      color: #eee;
+      background-color: #72ac51;
+      font-size: 18px;
+      border-bottom: 1px solid #565656;
+    }
+
+    .menutools{
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      box-sizing: border-box;
+      color: #eee;
+      background-color: #72ac51;
+      font-size: 18px;
+      border-bottom: 1px solid #565656;
+    }
+
+    .menuabout{
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      box-sizing: border-box; 
+      background-color: #72ac51;
+      font-size: 18px;
+    }
+    
+    .menuabout a {
+      color: #eee;
+    }
+
+    .menuOn{
+      position: absolute;
+      right: 20px;
+      top: 17.5px;
+    }
+
+    .menuOff{
+      display: none;
+      position: absolute;
+      right: 20px;
+      top: 17.5px;
+    }
+
+    .UP{
+      top: 0;
+      margin-left: 0px;
+    }
+
+    .low{
+      margin-top: 20px;
+      width: 100%;
+    } 
+
+    .DOWN{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 0;
+      top: 20px  ;
+      width: 100%;
+      height: auto;
+    }
+
+    .CompanyPart{
+      margin-top: 0;
+      margin-left: 0;
+      width: 90%;
+      height: 120px;
+      background-color: white;
+    }
+
+    .titlecompany{
+      position: relative;
+      top: 30px;
+      left: 30px;
+      width: 90%;
+      height: 20px;
+      display: flex;
+      font-size: 20px;
+      text-align: left;
+      align-items: center;
+      font-weight: bold;
+      color: black; 
+    }
+  
+    .contentcompany{
+      position: relative;
+      top: 40px;
+      margin-left: 30px;
+      width: 90%;
+      height: 50px;
+      display: flex;
+      font-size: 15px;
+      text-align: left;
+      align-items: center;
+      color: #565656; 
+    }
+  
+    .CampanyPhoto{
+      display: none;
+    }
+  
+    .MissionPart{
+      top: 0px;
+      margin-top: 20px;
+      margin-left: 0;
+      width: 90%;
+      height: 120px;
+      background-color: white;
+    }
+  
+    .titlemission{
+      position: relative;
+      top: 30px;
+      left: 30px;
+      width: 90%;
+      height: 20px;
+      display: flex;
+      font-size: 20px;
+      text-align: left;
+      align-items: center;
+      font-weight: bold;
+      color: black; 
+    }
+  
+    .contentmission{
+      position: relative;
+      top: 40px;
+      margin-left: 30px;
+      width: 80%;
+      height: 50px;
+      display: flex;
+      font-size: 15px;
+      text-align: left;
+      align-items: center;
+      color: #565656; 
+    }
+  
+    .MissionPhoto{
+      display: none;
+    }
+
+    .ContributePart{
+      top: 0px;
+      margin-top: 20px;
+      margin-left: 0;
+      width: 90%;
+      height: 120px;
+      background-color: white;
+    }
+  
+    .titlecontribute{
+      position: relative;
+      top: 30px;
+      left: 30px;
+      width: 90%;
+      height: 20px;
+      display: flex;
+      font-size: 20px;
+      text-align: left;
+      align-items: center;
+      font-weight: bold;
+      color: black; 
+    }
+  
+    .contentcontribute{
+      position: relative;
+      top: 40px;
+      margin-left: 30px;
+      width: 80%;
+      height: 50px;
+      display: flex;
+      font-size: 15px;
+      text-align: left;
+      align-items: center;
+      color: #565656; 
+    }
+  
+    .ContributePhoto{
+      display: none;
+    }
+
+
+}
